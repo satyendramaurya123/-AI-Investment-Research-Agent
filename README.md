@@ -1,4 +1,6 @@
-# InvestIQ — AI Investment Research Agent
+InvestIQ — AI Investment Research Agent
+
+Vercel Deploy Link --  https://ai-investment-research-agent-lac.vercel.app/ 
 
 A multi-agent AI system that produces analyst-grade investment research on any public company. Enter a company name and get a full **INVEST / HOLD / PASS** recommendation, backed by a financial analysis, a business/SWOT analysis, and a risk assessment — synthesized by a "CIO" decision agent, in under 30 seconds.
 
@@ -153,6 +155,175 @@ Every agent call is wrapped in try/catch with a hand-written fallback object (ne
 ---
 
 ## Example Runs
+1-  COMPANY: Netflix, Inc. (NFLX)
+Exchange: NASDAQ  |  Sector: Technology  |  Industry: Software
+CEO: Reed Hastings  |  HQ: Los Gatos, California, US
+Website: https://www.netflix.com
+
+------------------------------------------------------------
+MARKET DATA
+------------------------------------------------------------
+Current Price:  $458.50
+Change (Day):   +0.00%
+Market Cap:     $213.00B
+P/E Ratio:      58.30x
+EPS:            $7.87
+52-Week High:   $700.99
+52-Week Low:    $385.47
+
+------------------------------------------------------------
+FINANCIAL SUMMARY
+------------------------------------------------------------
+Revenue:        $32.98B
+Net Income:     $5.92B
+Gross Margin:   43.5%
+Net Margin:     18.0%
+ROE:            33.5%
+Debt/Equity:    1.20x
+Free Cash Flow: $4.30B
+
+------------------------------------------------------------
+AI ANALYSIS SCORES
+------------------------------------------------------------
+Financial Score:  70/100
+Business Score:   55/100
+Risk Score:       72/100 (Safety)
+OVERALL SCORE:    65/100
+
+------------------------------------------------------------
+INVESTMENT DECISION
+------------------------------------------------------------
+Recommendation: *** HOLD ***
+Confidence:     80%
+
+PROS:
+  1. Positive revenue trajectory with a growth rate of 9.2%
+  2. Strong market position with a recognizable brand and established customer base
+  3. Adequate cash flow and fairly valued valuation
+
+CONS:
+  1. Intensifying competition in the streaming market
+  2. Moderate debt level with a score of 56/100
+  3. Dependence on subscriber growth and revenue expansion
+
+SUMMARY:
+We recommend an INVEST decision for Netflix, driven by its solid financial metrics, strong market position, and manageable risk profile. The company's positive revenue trajectory, stable profitability, and adequate cash flow support our conviction. While competitive pressures and moderate debt levels are concerns, we believe the company's established brand and customer base provide a foundation for long-term growth.
+
+DETAILED REASONING:
+Our decision to invest in Netflix is based on a comprehensive analysis of the company's financial, business, and risk profiles. The financial analyst report highlights a positive revenue trend with a score of 59.2/100, stable profitability with a score of 43.5/100, and a growth rate of 9.2% with a score of 68.4/100. The business analyst report notes the company's strong market position, competitive advantage through brand recognition, and opportunities for expansion into new markets. While the risk analyst report identifies a medium overall risk driven by competition and moderate debt, we believe the company's strong financials and established operational infrastructure provide a foundation for mitigating these risks. With a weighted score of 65, we are confident in our decision to invest in Netflix, citing its solid financial metrics, strong market position, and manageable risk profile.
+
+------------------------------------------------------------
+SWOT ANALYSIS
+------------------------------------------------------------
+STRENGTHS:
+  + Market leadership position
+  + Strong brand recognition
+  + Robust ecosystem
+
+WEAKNESSES:
+  - Dependence on core market
+  - Competition from emerging players
+
+OPPORTUNITIES:
+  > AI and automation integration
+  > International expansion
+  > New product categories
+
+THREATS:
+  ! Increasing competition
+  ! Regulatory changes
+  ! Market saturation
+
+============================================================
+DISCLAIMER: This report is AI-generated for informational purposes only.
+It is NOT financial advice. Always consult a qualified financial advisor
+before making investment decisions. Past performance does not guarantee
+future results.
+
+2- COMPANY: Apple Inc. (AAPL)
+Exchange: NASDAQ  |  Sector: Technology  |  Industry: Software
+CEO: Tim Cook  |  HQ: Cupertino, California, US
+Website: https://www.apple.com
+
+------------------------------------------------------------
+MARKET DATA
+------------------------------------------------------------
+Current Price:  $175.00
+Change (Day):   +0.00%
+Market Cap:     $2.90T
+P/E Ratio:      30.20x
+EPS:            $5.81
+52-Week High:   $210.00
+52-Week Low:    $130.00
+
+------------------------------------------------------------
+FINANCIAL SUMMARY
+------------------------------------------------------------
+Revenue:        $400.00B
+Net Income:     $105.00B
+Gross Margin:   45.0%
+Net Margin:     26.2%
+ROE:            150.0%
+Debt/Equity:    1.50x
+Free Cash Flow: $100.00B
+
+------------------------------------------------------------
+AI ANALYSIS SCORES
+------------------------------------------------------------
+Financial Score:  85/100
+Business Score:   55/100
+Risk Score:       55/100 (Safety)
+OVERALL SCORE:    67/100
+
+------------------------------------------------------------
+INVESTMENT DECISION
+------------------------------------------------------------
+Recommendation: *** INVEST ***
+Confidence:     63%
+
+PROS:
+  1. Strong brand and ecosystem
+  2. High profitability
+  3. Established brand and customer base
+
+CONS:
+  1. High debt-to-equity ratio
+  2. Competitive pressure from well-funded rivals
+  3. Potential regulatory headwinds
+
+SUMMARY:
+Apple receives an overall score of 67/100 across financial, business, and risk dimensions. Based on this analysis, our recommendation is to INVEST with 63% confidence.
+
+DETAILED REASONING:
+Apple's financial analysis scores 85/100, driven by Apple's financial performance is strong, with growing revenue and high profitability. However, the company's growth rate has decelerated, and its debt-to-equity ratio is high. The company's valuation is fairly valued, considering its strong cash flow and high return on equity.. The business analysis awards 55/100 noting strong competitor position. Risk assessment yields a safety score of 55/100 with medium overall risk. The weighted combination of these scores produces an overall score of 67/100, leading to a INVEST recommendation.
+
+------------------------------------------------------------
+SWOT ANALYSIS
+------------------------------------------------------------
+STRENGTHS:
+  + Market leadership position
+  + Strong brand recognition
+  + Robust ecosystem
+
+WEAKNESSES:
+  - Dependence on core market
+  - Competition from emerging players
+
+OPPORTUNITIES:
+  > AI and automation integration
+  > International expansion
+  > New product categories
+
+THREATS:
+  ! Increasing competition
+  ! Regulatory changes
+  ! Market saturation
+
+============================================================
+DISCLAIMER: This report is AI-generated for informational purposes only.
+It is NOT financial advice. Always consult a qualified financial advisor
+before making investment decisions. Past performance does not guarantee
+future results.
 
 
 ---
